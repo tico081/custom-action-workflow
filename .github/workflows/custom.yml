@@ -1,0 +1,8 @@
+name: Custom
+on: push
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+      - uses: atico081/custom-action@main
